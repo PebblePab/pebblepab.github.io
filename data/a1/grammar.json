@@ -1,0 +1,468 @@
+[
+  {
+    "id": "verbityypit_3_6",
+    "title": "Verbityypit 3–6",
+    "titleRu": "Типы глаголов 3–6",
+    "level": "A1",
+    "blocks": [
+      { "type": "text", "content": "В A0 мы разобрали типы 1 и 2. Теперь — оставшиеся четыре. Понимание типов критично: от типа зависит, как глагол спрягается." },
+      { "type": "heading", "content": "Тип 3: -la / -lä, -na / -nä, -ra / -rä, -da / -dä" },
+      { "type": "text", "content": "Инфинитив заканчивается на -lla, -nna, -rra, -sta и подобное. При спряжении отпадает последняя гласная, а конечная согласная удваивается или переходит в другую." },
+      { "type": "table", "headers": ["Лицо", "tulla (приходить)", "mennä (идти)", "olla (быть)"], "rows": [
+        ["minä", "tulen", "menen", "olen"],
+        ["sinä", "tulet", "menet", "olet"],
+        ["hän", "tulee", "menee", "on"],
+        ["me", "tulemme", "menemme", "olemme"],
+        ["te", "tulette", "menette", "olette"],
+        ["he", "tulevat", "menevät", "ovat"]
+      ]},
+      { "type": "heading", "content": "Тип 4: -ata / -ätä, -ota / -ötä, -uta / -ytä" },
+      { "type": "text", "content": "Сюда входят глаголы типа haluta, tavata, pelata, pudota. При спряжении -t- переходит в -a-/-ä-, и отпадает гласная." },
+      { "type": "table", "headers": ["Лицо", "haluta (хотеть)", "tavata (встречать)"], "rows": [
+        ["minä", "haluan", "tapaan"],
+        ["sinä", "haluat", "tapaat"],
+        ["hän", "haluaa", "tapaa"],
+        ["me", "haluamme", "tapaamme"],
+        ["te", "haluatte", "tapaatte"],
+        ["he", "haluavat", "tapaavat"]
+      ]},
+      { "type": "heading", "content": "Тип 5: -ita / -itä" },
+      { "type": "text", "content": "Небольшая группа: tarvita, valita, mainita. Отпадает -ta/-tä, и получается форма на -its-." },
+      { "type": "table", "headers": ["Лицо", "tarvita (нуждаться)"], "rows": [
+        ["minä", "tarvitsen"],
+        ["sinä", "tarvitset"],
+        ["hän", "tarvitsee"],
+        ["me", "tarvitsemme"],
+        ["te", "tarvitsette"],
+        ["he", "tarvitsevat"]
+      ]},
+      { "type": "heading", "content": "Тип 6: -eta / -etä" },
+      { "type": "text", "content": "Редкий тип: vanheta (стареть), paeta (убегать), kylmetä (остывать). Отпадает -ta/-tä, между основой и окончанием появляется -ne-." },
+      { "type": "table", "headers": ["Лицо", "vanheta (стареть)"], "rows": [
+        ["minä", "vanhenen"],
+        ["sinä", "vanhenet"],
+        ["hän", "vanhenee"],
+        ["me", "vanhenemme"],
+        ["te", "vanhenette"],
+        ["he", "vanhenevat"]
+      ]},
+      { "type": "note", "content": "На A1 тебе активно нужны типы 1–4. Типы 5 и 6 — узнавать и понимать, когда встречаешь. Всё заучивать не обязательно — постепенно привыкнешь." }
+    ]
+  },
+  {
+    "id": "astevaihtelu",
+    "title": "Astevaihtelu",
+    "titleRu": "Чередование согласных",
+    "level": "A1",
+    "blocks": [
+      { "type": "text", "content": "Astevaihtelu — одна из самых важных тем финской морфологии. Это чередование согласных в основе слова при изменении формы. Изучать обязательно — без этого не поймёшь ни падежи, ни глаголы." },
+      { "type": "heading", "content": "Сильное и слабое чередование" },
+      { "type": "text", "content": "Каждая согласная или группа согласных имеет «сильную» и «слабую» форму. В nominatiivi обычно сильная, в genetiivi и многих других падежах — слабая. Или наоборот — зависит от типа слова." },
+      { "type": "table", "headers": ["Сильная", "Слабая", "Пример"], "rows": [
+        ["kk", "k", "kukka → kukan"],
+        ["pp", "p", "kaappi → kaapin"],
+        ["tt", "t", "tyttö → tytön"],
+        ["k", "—", "jalka → jalan"],
+        ["p", "v", "leipä → leivän"],
+        ["t", "d", "katu → kadun"],
+        ["nt", "nn", "antaa → annan"],
+        ["nk", "ng", "Helsinki → Helsingin"],
+        ["mp", "mm", "kampa → kamman"],
+        ["lt", "ll", "ilta → illan"],
+        ["rt", "rr", "parta → parran"]
+      ]},
+      { "type": "heading", "content": "Как это работает" },
+      { "type": "text", "content": "Когда слово в nominatiivi, у него обычно сильная форма. Как только добавляешь окончание падежа — часто становится слабая. У существительных с окончанием на -i, -e, -nen — наоборот, в nominatiivi слабая, а в других формах сильная." },
+      { "type": "examples", "items": [
+        { "fi": "tyttö → tytön", "ru": "девочка → девочки (genetiivi)" },
+        { "fi": "kukka → kukassa", "ru": "цветок → в цветке" },
+        { "fi": "kaappi → kaapissa", "ru": "шкаф → в шкафу" },
+        { "fi": "leipä → leivän", "ru": "хлеб → хлеба" }
+      ]},
+      { "type": "note", "content": "Это одна из самых сложных тем финского. Не пытайся выучить все комбинации сразу. На A1 достаточно знать основные: kk:k, pp:p, tt:t, k:-, t:d, p:v. Остальные встретишь в словах и постепенно запомнишь." }
+    ]
+  },
+  {
+    "id": "imperfekti",
+    "title": "Imperfekti",
+    "titleRu": "Прошедшее время (имперфект)",
+    "level": "A1",
+    "blocks": [
+      { "type": "text", "content": "Имперфект — простое прошедшее время. Используется для законченных действий в прошлом: «я сделал, я был, я читал». Это самое частое прошедшее время в финском." },
+      { "type": "heading", "content": "Образование" },
+      { "type": "text", "content": "Берёшь основу глагола (без инфинитивного окончания) и добавляешь -i- перед личным окончанием. Например: puhua → puhu- + i + n = puhuin." },
+      { "type": "table", "headers": ["Лицо", "puhua (говорить)", "asua (жить)"], "rows": [
+        ["minä", "puhuin", "asuin"],
+        ["sinä", "puhuit", "asuit"],
+        ["hän", "puhui", "asui"],
+        ["me", "puhuimme", "asuimme"],
+        ["te", "puhuitte", "asuitte"],
+        ["he", "puhuivat", "asuivat"]
+      ]},
+      { "type": "heading", "content": "Особые случаи" },
+      { "type": "text", "content": "Когда основа заканчивается на -a/-ä, она часто меняется на -o/-ö или выпадает. Например: lukea → luin, ostaa → ostin, antaa → annoin." },
+      { "type": "table", "headers": ["Инфинитив", "Имперфект (minä)", "Перевод"], "rows": [
+        ["lukea", "luin", "я читал"],
+        ["ostaa", "ostin", "я купил"],
+        ["antaa", "annoin", "я дал"],
+        ["juoda", "join", "я пил"],
+        ["syödä", "söin", "я ел"],
+        ["tehdä", "tein", "я делал"],
+        ["nähdä", "näin", "я видел"],
+        ["mennä", "menin", "я шёл"],
+        ["tulla", "tulin", "я пришёл"],
+        ["olla", "olin", "я был"]
+      ]},
+      { "type": "heading", "content": "Отрицание в прошедшем" },
+      { "type": "text", "content": "Отрицательный глагол + причастие на -nut/-nyt. Форма одна для всех лиц." },
+      { "type": "examples", "items": [
+        { "fi": "Minä en puhunut.", "ru": "Я не говорил." },
+        { "fi": "Hän ei tullut.", "ru": "Он / она не пришёл." },
+        { "fi": "Me emme nähneet.", "ru": "Мы не видели." }
+      ]},
+      { "type": "note", "content": "Имперфект отвечает на вопрос «что сделал?». Для «что делал (в процессе)» в финском используют тот же имперфект, но с партитивом: Luin kirjaa (читал книгу — процесс) vs Luin kirjan (прочитал книгу — завершено)." }
+    ]
+  },
+  {
+    "id": "monikko",
+    "title": "Monikko",
+    "titleRu": "Множественное число",
+    "level": "A1",
+    "blocks": [
+      { "type": "text", "content": "Множественное число в финском образуется через -t в nominatiivi и -i- в основе для всех остальных падежей." },
+      { "type": "heading", "content": "Nominatiivi множественного" },
+      { "type": "text", "content": "В nominatiivi множественное число всегда оканчивается на -t. Это самый простой случай." },
+      { "type": "table", "headers": ["Ед. ч.", "Мн. ч.", "Перевод"], "rows": [
+        ["talo", "talot", "дом — дома"],
+        ["kirja", "kirjat", "книга — книги"],
+        ["auto", "autot", "машина — машины"],
+        ["ystävä", "ystävät", "друг — друзья"],
+        ["lapsi", "lapset", "ребёнок — дети"]
+      ]},
+      { "type": "heading", "content": "Множественное в других падежах" },
+      { "type": "text", "content": "В остальных падежах признак множественного — буква -i- между основой и падежным окончанием." },
+      { "type": "table", "headers": ["Падеж", "Ед. ч.", "Мн. ч."], "rows": [
+        ["Nominatiivi", "talo", "talot"],
+        ["Genetiivi", "talon", "talojen"],
+        ["Partitiivi", "taloa", "taloja"],
+        ["Inessive", "talossa", "taloissa"],
+        ["Elative", "talosta", "taloista"],
+        ["Illative", "taloon", "taloihin"]
+      ]},
+      { "type": "examples", "items": [
+        { "fi": "Kaksi taloa on tyhjiä.", "ru": "Два дома пустые." },
+        { "fi": "Minä näen kolme autoa.", "ru": "Я вижу три машины." },
+        { "fi": "Asun Helsingissä, mutta käyn usein muissa kaupungeissa.", "ru": "Я живу в Хельсинки, но часто бываю в других городах." }
+      ]},
+      { "type": "note", "content": "После чисел больше одного всегда используется партитив единственного числа, а не множественное число: kaksi taloa (не kaksi talot). Это правило — обязательное." }
+    ]
+  },
+  {
+    "id": "paikallissijat_full",
+    "title": "Kaikki paikallissijat",
+    "titleRu": "Все местные падежи: полная таблица",
+    "level": "A1",
+    "blocks": [
+      { "type": "text", "content": "В A0 мы разобрали три базовых местных падежа: inessive (-ssa), elative (-sta), illative (-Vn). Теперь — полная система из шести падежей, три пары." },
+      { "type": "heading", "content": "Внутренние падежи (внутри чего-то)" },
+      { "type": "table", "headers": ["Где? Inessive", "Куда? Illative", "Откуда? Elative"], "rows": [
+        ["talossa (в доме)", "taloon (в дом)", "talosta (из дома)"],
+        ["kaupassa (в магазине)", "kauppaan (в магазин)", "kaupasta (из магазина)"],
+        ["Suomessa (в Финляндии)", "Suomeen (в Финляндию)", "Suomesta (из Финляндии)"]
+      ]},
+      { "type": "heading", "content": "Внешние падежи (на поверхности, около)" },
+      { "type": "table", "headers": ["Где? Adessive (-lla)", "Куда? Allative (-lle)", "Откуда? Ablative (-lta)"], "rows": [
+        ["pöydällä (на столе)", "pöydälle (на стол)", "pöydältä (со стола)"],
+        ["kadulla (на улице)", "kadulle (на улицу)", "kadulta (с улицы)"],
+        ["minulla (у меня)", "minulle (мне)", "minulta (от меня)"]
+      ]},
+      { "type": "heading", "content": "Логика системы" },
+      { "type": "text", "content": "Все 6 падежей — это две тройки (внутренние и внешние) × три направления (где, куда, откуда). Если понимаешь логику, запомнить легче." },
+      { "type": "examples", "items": [
+        { "fi": "Asun kerrostalossa.", "ru": "Я живу в многоквартирном доме." },
+        { "fi": "Muutan uuteen asuntoon.", "ru": "Я переезжаю в новую квартиру." },
+        { "fi": "Tulen juuri kotoa.", "ru": "Я как раз иду из дома." },
+        { "fi": "Kirja on pöydällä.", "ru": "Книга на столе." },
+        { "fi": "Laitan kirjan pöydälle.", "ru": "Я кладу книгу на стол." },
+        { "fi": "Otan kirjan pöydältä.", "ru": "Я беру книгу со стола." }
+      ]},
+      { "type": "note", "content": "С личными местоимениями: minulla on (у меня есть) — это adessive. Minulle (мне) — allative. Minulta (от меня) — ablative. Эти три формы очень частотные, выучи их наизусть." }
+    ]
+  },
+  {
+    "id": "objekti",
+    "title": "Objekti",
+    "titleRu": "Объект: аккузатив и партитив",
+    "level": "A1",
+    "blocks": [
+      { "type": "text", "content": "Прямое дополнение в финском может стоять в двух основных формах: аккузатив (полный объект) и партитив (частичный). Выбор влияет на смысл — завершено действие или нет." },
+      { "type": "heading", "content": "Аккузатив — завершённое действие" },
+      { "type": "text", "content": "Используется, когда действие завершено и объект полностью охвачен. Форма аккузатива совпадает с genetiivi (-n) в единственном числе, а во множественном — с nominatiivi (-t)." },
+      { "type": "examples", "items": [
+        { "fi": "Ostan kirjan.", "ru": "Я куплю книгу (целиком, завершено)." },
+        { "fi": "Luen kirjan loppuun.", "ru": "Я дочитаю книгу до конца." },
+        { "fi": "Juon kahvin.", "ru": "Я выпью чашку кофе." }
+      ]},
+      { "type": "heading", "content": "Партитив — незавершённое или частичное" },
+      { "type": "text", "content": "Используется, когда действие в процессе, повторяется, или объект — часть чего-то (масса, вещество)." },
+      { "type": "examples", "items": [
+        { "fi": "Ostan kirjaa.", "ru": "Я покупаю книгу (в процессе)." },
+        { "fi": "Luen kirjaa.", "ru": "Я читаю книгу (процесс)." },
+        { "fi": "Juon kahvia.", "ru": "Я пью кофе (процесс или часть)." }
+      ]},
+      { "type": "heading", "content": "Правила для выбора" },
+      { "type": "list", "items": [
+        "Партитив — с отрицанием: En osta kirjaa",
+        "Партитив — с веществами и массами: juon vettä, syön leipää",
+        "Партитив — при незавершённом действии: luen kirjaa",
+        "Партитив — после чисел больше одного: ostan kaksi kirjaa",
+        "Аккузатив — когда действие завершено и объект целиком: ostan kirjan"
+      ]},
+      { "type": "note", "content": "Это одна из самых тонких тем финского. На A1 важнее всего понять разницу на конкретных примерах. Практика и чтение постепенно разовьют интуицию." }
+    ]
+  },
+  {
+    "id": "vertailu",
+    "title": "Adjektiivien vertailu",
+    "titleRu": "Степени сравнения прилагательных",
+    "level": "A1",
+    "blocks": [
+      { "type": "text", "content": "Прилагательные в финском имеют три степени: положительную, сравнительную и превосходную. Сравнительная — «более», превосходная — «самый»." },
+      { "type": "heading", "content": "Сравнительная степень (-mpi)" },
+      { "type": "text", "content": "К основе прилагательного добавляется -mpi. Если основа оканчивается на -a/-ä, оно меняется на -e-. При согласовании с существительным -mpi превращается в -mpa/-mpä." },
+      { "type": "table", "headers": ["Положительная", "Сравнительная", "Перевод"], "rows": [
+        ["iso", "isompi", "большой — больше"],
+        ["pieni", "pienempi", "маленький — меньше"],
+        ["kaunis", "kaunimpi", "красивый — красивее"],
+        ["helppo", "helpompi", "лёгкий — легче"],
+        ["vaikea", "vaikeampi", "трудный — труднее"],
+        ["kallis", "kalliimpi", "дорогой — дороже"]
+      ]},
+      { "type": "heading", "content": "Превосходная степень (-in)" },
+      { "type": "text", "content": "Добавляется -in к основе. В косвенных падежах -in превращается в -imp-." },
+      { "type": "table", "headers": ["Положительная", "Превосходная", "Перевод"], "rows": [
+        ["iso", "isoin", "самый большой"],
+        ["pieni", "pienin", "самый маленький"],
+        ["hyvä", "paras", "лучший (исключение)"],
+        ["huono", "huonoin", "худший"],
+        ["pitkä", "pisin", "самый длинный"]
+      ]},
+      { "type": "examples", "items": [
+        { "fi": "Tämä talo on isompi kuin tuo.", "ru": "Этот дом больше, чем тот." },
+        { "fi": "Hän on minun paras ystäväni.", "ru": "Он мой лучший друг." },
+        { "fi": "Helsinki on Suomen suurin kaupunki.", "ru": "Хельсинки — крупнейший город Финляндии." }
+      ]},
+      { "type": "note", "content": "Сравнение с чем-то: «A on -mpi kuin B» — «A больше, чем B». Слово kuin = «чем»." }
+    ]
+  },
+  {
+    "id": "numeraalit",
+    "title": "Numeraalit",
+    "titleRu": "Числительные: количественные и порядковые",
+    "level": "A1",
+    "blocks": [
+      { "type": "text", "content": "Количественные числительные в A0 уже прошли (yksi, kaksi...). Теперь — порядковые и правила сочетания с существительными." },
+      { "type": "heading", "content": "Порядковые числительные" },
+      { "type": "table", "headers": ["Число", "Количественное", "Порядковое"], "rows": [
+        ["1", "yksi", "ensimmäinen"],
+        ["2", "kaksi", "toinen"],
+        ["3", "kolme", "kolmas"],
+        ["4", "neljä", "neljäs"],
+        ["5", "viisi", "viides"],
+        ["6", "kuusi", "kuudes"],
+        ["7", "seitsemän", "seitsemäs"],
+        ["8", "kahdeksan", "kahdeksas"],
+        ["9", "yhdeksän", "yhdeksäs"],
+        ["10", "kymmenen", "kymmenes"]
+      ]},
+      { "type": "heading", "content": "Падеж после числительных" },
+      { "type": "text", "content": "После чисел 2 и больше используется партитив единственного числа, а не множественное число." },
+      { "type": "examples", "items": [
+        { "fi": "Yksi kirja", "ru": "Одна книга (nominatiivi)" },
+        { "fi": "Kaksi kirjaa", "ru": "Две книги (партитив ед. ч.)" },
+        { "fi": "Viisi omenaa", "ru": "Пять яблок" },
+        { "fi": "Sata euroa", "ru": "Сто евро" }
+      ]},
+      { "type": "heading", "content": "Который час?" },
+      { "type": "examples", "items": [
+        { "fi": "Kello on yksi.", "ru": "Час." },
+        { "fi": "Kello on puoli kaksi.", "ru": "Полтора часа (буквально: полвторого)." },
+        { "fi": "Kello on viisitoista yli kaksi.", "ru": "Пятнадцать минут третьего." },
+        { "fi": "Kello on kaksikymmentä vaille kolme.", "ru": "Без двадцати три." }
+      ]},
+      { "type": "note", "content": "В финском «полвторого» — puoli kaksi. Логика другая, чем в русском: puoli = половина, и указывается на ещё не наступивший час. Puoli kaksi = 1:30." }
+    ]
+  },
+  {
+    "id": "postpositiot",
+    "title": "Postpositiot",
+    "titleRu": "Послелоги",
+    "level": "A1",
+    "blocks": [
+      { "type": "text", "content": "В финском нет предлогов в русском смысле — в основном используются послелоги (постпозиции): слово, указывающее место или отношение, идёт **после** существительного." },
+      { "type": "heading", "content": "Основные послелоги" },
+      { "type": "table", "headers": ["Послелог", "Перевод", "Пример"], "rows": [
+        ["kanssa", "с (кем-то)", "ystävän kanssa — с другом"],
+        ["ilman", "без", "ilman sinua — без тебя"],
+        ["luona", "у (кого-то)", "ystävän luona — у друга"],
+        ["vieressä", "рядом", "talo vieressä — рядом с домом"],
+        ["edessä", "перед", "koulun edessä — перед школой"],
+        ["takana", "за, позади", "talo takana — за домом"],
+        ["päällä", "на (сверху)", "pöydän päällä — на столе"],
+        ["alla", "под", "sängyn alla — под кроватью"],
+        ["jälkeen", "после", "ruoan jälkeen — после еды"],
+        ["aikana", "во время", "kesän aikana — в течение лета"]
+      ]},
+      { "type": "heading", "content": "Какая форма существительного" },
+      { "type": "text", "content": "Послелоги требуют genetiivi (форма на -n) от существительного перед ними." },
+      { "type": "examples", "items": [
+        { "fi": "Talo on kirkon vieressä.", "ru": "Дом рядом с церковью." },
+        { "fi": "Kissa nukkuu sängyn alla.", "ru": "Кошка спит под кроватью." },
+        { "fi": "Minä menen ystävän kanssa kahvilaan.", "ru": "Я иду с другом в кафе." }
+      ]},
+      { "type": "note", "content": "Некоторые слова в финском работают и как предлоги, и как послелоги. Классический пример — ennen: ennen ruokaa (перед едой) — предлог, но это редкий случай." }
+    ]
+  },
+  {
+    "id": "passiivi",
+    "title": "Passiivi",
+    "titleRu": "Пассив",
+    "level": "A1",
+    "blocks": [
+      { "type": "text", "content": "Пассив в финском не имеет прямого аналога в русском. Это особая форма, которая означает «делается (кем-то)», без указания кто именно. Очень часто используется в разговорной речи вместо «мы»." },
+      { "type": "heading", "content": "Образование настоящего пассива" },
+      { "type": "text", "content": "Берёшь основу инфинитива и добавляешь -an/-än, -han/-hän, -daan/-dään — точное окончание зависит от типа глагола." },
+      { "type": "table", "headers": ["Актив", "Пассив", "Перевод"], "rows": [
+        ["puhua → puhun", "puhutaan", "говорят / говорится"],
+        ["ostaa → ostan", "ostetaan", "покупают"],
+        ["mennä → menen", "mennään", "идут / идём"],
+        ["tulla → tulen", "tullaan", "приходят"],
+        ["syödä → syön", "syödään", "едят"]
+      ]},
+      { "type": "heading", "content": "Прошедший пассив" },
+      { "type": "text", "content": "К основе добавляется -tiin/-ttiin или -in. Форма одна для всех." },
+      { "type": "examples", "items": [
+        { "fi": "Puhuttiin suomea.", "ru": "Говорили по-фински." },
+        { "fi": "Ostettiin uusi auto.", "ru": "Купили новую машину." },
+        { "fi": "Mentiin kauppaan.", "ru": "Пошли в магазин." }
+      ]},
+      { "type": "heading", "content": "Разговорное «мы»" },
+      { "type": "text", "content": "В разговорном финском пассив часто используется вместо формы «me teemme»: Me mennään = Me menemme. Это стилистически менее формально." },
+      { "type": "note", "content": "Пассив — ключ к пониманию разговорного финского. Если слышишь «mennään», «tehdään», «puhutaan» — это чаще всего значит «мы идём», «мы делаем», «мы говорим», а не абстрактное «делается»." }
+    ]
+  },
+  {
+    "id": "imperatiivi",
+    "title": "Imperatiivi",
+    "titleRu": "Повелительное наклонение",
+    "level": "A1",
+    "blocks": [
+      { "type": "text", "content": "Императив — приказы, просьбы, инструкции. В финском формы для «ты» и «вы» различаются, но «ты» — проще всего." },
+      { "type": "heading", "content": "Императив на «ты» (sinä)" },
+      { "type": "text", "content": "Это основа глагола без личного окончания и без -n. Для большинства глаголов совпадает с формой 1-го лица единственного числа без -n." },
+      { "type": "table", "headers": ["Инфинитив", "Imperatiivi (sinä)", "Перевод"], "rows": [
+        ["puhua", "puhu!", "говори!"],
+        ["mennä", "mene!", "иди!"],
+        ["tulla", "tule!", "приходи!"],
+        ["lukea", "lue!", "читай!"],
+        ["ostaa", "osta!", "купи!"],
+        ["avata", "avaa!", "открой!"],
+        ["odottaa", "odota!", "жди!"]
+      ]},
+      { "type": "heading", "content": "Императив на «вы» (te) и вежливый" },
+      { "type": "text", "content": "Форма на «вы»: основа + -kaa/-kää. Также используется как вежливая форма к одному человеку." },
+      { "type": "examples", "items": [
+        { "fi": "Puhukaa hitaammin!", "ru": "Говорите медленнее!" },
+        { "fi": "Odottakaa hetki!", "ru": "Подождите минуту!" },
+        { "fi": "Tulkaa sisään!", "ru": "Входите!" }
+      ]},
+      { "type": "heading", "content": "Отрицательный императив" },
+      { "type": "text", "content": "Отрицание в императиве: älä (для sinä) или älkää (для te) + основа глагола." },
+      { "type": "examples", "items": [
+        { "fi": "Älä mene!", "ru": "Не ходи!" },
+        { "fi": "Älä unohda!", "ru": "Не забудь!" },
+        { "fi": "Älkää puhuko!", "ru": "Не говорите!" }
+      ]},
+      { "type": "note", "content": "Императив часто используется в инструкциях, рецептах, указателях. Valitse kieli = Выберите язык. Paina nappia = Нажмите кнопку." }
+    ]
+  },
+  {
+    "id": "sanajarjestys",
+    "title": "Sanajärjestys",
+    "titleRu": "Порядок слов и вопросы",
+    "level": "A1",
+    "blocks": [
+      { "type": "text", "content": "В финском порядок слов свободнее, чем в русском, но есть базовые правила и важные исключения." },
+      { "type": "heading", "content": "Базовый порядок SVO" },
+      { "type": "text", "content": "Подлежащее — глагол — дополнение. Как в русском." },
+      { "type": "examples", "items": [
+        { "fi": "Minä luen kirjaa.", "ru": "Я читаю книгу." },
+        { "fi": "Hän juo kahvia.", "ru": "Он пьёт кофе." }
+      ]},
+      { "type": "heading", "content": "Вопрос -ko / -kö" },
+      { "type": "text", "content": "Для общего вопроса (да/нет) к глаголу добавляется -ko/-kö, и он ставится в начало. Порядок остальных слов не меняется." },
+      { "type": "examples", "items": [
+        { "fi": "Puhutko sinä suomea?", "ru": "Ты говоришь по-фински?" },
+        { "fi": "Onko hän kotona?", "ru": "Он дома?" },
+        { "fi": "Tuletko sinä huomenna?", "ru": "Ты придёшь завтра?" }
+      ]},
+      { "type": "heading", "content": "Вопрос с вопросительным словом" },
+      { "type": "text", "content": "Вопросительное слово (kuka, mikä, missä, milloin) — в начале. После него — глагол, потом подлежащее и остальное." },
+      { "type": "examples", "items": [
+        { "fi": "Missä sinä asut?", "ru": "Где ты живёшь?" },
+        { "fi": "Milloin sinä tulet?", "ru": "Когда ты придёшь?" },
+        { "fi": "Mitä sinä teet?", "ru": "Что ты делаешь?" }
+      ]},
+      { "type": "heading", "content": "Инверсия для выделения" },
+      { "type": "text", "content": "Если хочешь подчеркнуть время, место или объект — их можно поставить в начало. Это стилистический приём, порядок слов становится другим, но смысл сохраняется." },
+      { "type": "examples", "items": [
+        { "fi": "Huomenna minä menen kauppaan.", "ru": "Завтра я иду в магазин. (акцент на «завтра»)" },
+        { "fi": "Kahvia minä juon aamulla.", "ru": "Кофе я пью утром. (акцент на «кофе»)" }
+      ]},
+      { "type": "note", "content": "На A1 не переживай о стилистике. Базовый SVO + вопросительные слова в начале — уже покрывает 90% ситуаций." }
+    ]
+  },
+  {
+    "id": "adverbit",
+    "title": "Adverbit",
+    "titleRu": "Наречия",
+    "level": "A1",
+    "blocks": [
+      { "type": "text", "content": "Наречия в финском часто образуются от прилагательных. Есть несколько стандартных окончаний." },
+      { "type": "heading", "content": "Наречия образа действия (-sti)" },
+      { "type": "text", "content": "От прилагательного + -sti = наречие образа действия. Аналог русского «-о»." },
+      { "type": "table", "headers": ["Прилагательное", "Наречие", "Перевод"], "rows": [
+        ["nopea", "nopeasti", "быстрый → быстро"],
+        ["hidas", "hitaasti", "медленный → медленно"],
+        ["helppo", "helposti", "лёгкий → легко"],
+        ["vaikea", "vaikeasti", "трудный → трудно"],
+        ["kaunis", "kauniisti", "красивый → красиво"],
+        ["hyvä", "hyvin", "хороший → хорошо"],
+        ["huono", "huonosti", "плохой → плохо"]
+      ]},
+      { "type": "heading", "content": "Наречия времени и места" },
+      { "type": "text", "content": "Эти слова нужно заучить — они не образуются по формуле." },
+      { "type": "table", "headers": ["Наречие", "Перевод"], "rows": [
+        ["tänään", "сегодня"],
+        ["eilen", "вчера"],
+        ["huomenna", "завтра"],
+        ["nyt", "сейчас"],
+        ["sitten", "потом"],
+        ["aina", "всегда"],
+        ["joskus", "иногда"],
+        ["usein", "часто"],
+        ["harvoin", "редко"],
+        ["täällä", "здесь"],
+        ["siellä", "там"],
+        ["kotona", "дома"],
+        ["ulkona", "на улице"],
+        ["sisällä", "внутри"]
+      ]},
+      { "type": "examples", "items": [
+        { "fi": "Hän puhuu hyvin suomea.", "ru": "Он хорошо говорит по-фински." },
+        { "fi": "Minä herään aina aikaisin.", "ru": "Я всегда встаю рано." },
+        { "fi": "Me menemme joskus teatteriin.", "ru": "Мы иногда ходим в театр." }
+      ]}
+    ]
+  }
+]

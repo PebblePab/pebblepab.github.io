@@ -1,0 +1,142 @@
+[
+  {
+    "id": "minun_paivani",
+    "title": "Minun päiväni",
+    "titleRu": "Мой день",
+    "level": "A0",
+    "segments": [
+      { "fi": "Minä herään kello seitsemän.", "ru": "Я просыпаюсь в семь часов." },
+      { "fi": "Minä juon kahvia ja syön leipää.", "ru": "Я пью кофе и ем хлеб." },
+      { "fi": "Minä menen töihin bussilla.", "ru": "Я еду на работу на автобусе." },
+      { "fi": "Työ on kaupungissa.", "ru": "Работа в городе." },
+      { "fi": "Minä tulen kotiin kello viisi.", "ru": "Я прихожу домой в пять часов." },
+      { "fi": "Illalla minä luen kirjaa ja nukun.", "ru": "Вечером я читаю книгу и сплю." }
+    ]
+  },
+  {
+    "id": "perhe",
+    "title": "Minun perheeni",
+    "titleRu": "Моя семья",
+    "level": "A0",
+    "segments": [
+      { "fi": "Minulla on äiti ja isä.", "ru": "У меня есть мама и папа." },
+      { "fi": "Minulla on yksi sisko ja kaksi veljeä.", "ru": "У меня есть одна сестра и два брата." },
+      { "fi": "Me asumme Suomessa.", "ru": "Мы живём в Финляндии." },
+      { "fi": "Meidän koti on pieni mutta kaunis.", "ru": "Наш дом маленький, но красивый." },
+      { "fi": "Minun äitini on opettaja.", "ru": "Моя мама — учительница." },
+      { "fi": "Minun isäni on insinööri.", "ru": "Мой папа — инженер." }
+    ]
+  },
+  {
+    "id": "koti",
+    "title": "Minun kotini",
+    "titleRu": "Мой дом",
+    "level": "A0",
+    "segments": [
+      { "fi": "Minä asun pienessä asunnossa.", "ru": "Я живу в маленькой квартире." },
+      { "fi": "Asunnossa on kaksi huonetta ja keittiö.", "ru": "В квартире две комнаты и кухня." },
+      { "fi": "Olohuoneessa on sohva ja televisio.", "ru": "В гостиной диван и телевизор." },
+      { "fi": "Makuuhuoneessa on sänky ja kirjahylly.", "ru": "В спальне кровать и книжная полка." },
+      { "fi": "Keittiössä on pöytä ja neljä tuolia.", "ru": "На кухне стол и четыре стула." },
+      { "fi": "Minä pidän kodistani.", "ru": "Мне нравится мой дом." }
+    ]
+  },
+  {
+    "id": "kaupassa",
+    "title": "Kaupassa",
+    "titleRu": "В магазине",
+    "level": "A0",
+    "segments": [
+      { "fi": "Minä menen kauppaan.", "ru": "Я иду в магазин." },
+      { "fi": "Kaupassa on paljon ruokaa.", "ru": "В магазине много еды." },
+      { "fi": "Minä ostan maitoa, leipää ja juustoa.", "ru": "Я покупаю молоко, хлеб и сыр." },
+      { "fi": "Maito maksaa kaksi euroa.", "ru": "Молоко стоит два евро." },
+      { "fi": "Minä maksan kortilla.", "ru": "Я плачу картой." },
+      { "fi": "Kiitos, näkemiin!", "ru": "Спасибо, до свидания!" }
+    ]
+  },
+  {
+    "id": "saasta",
+    "title": "Sää",
+    "titleRu": "Погода",
+    "level": "A0",
+    "segments": [
+      { "fi": "Tänään on kaunis päivä.", "ru": "Сегодня красивый день." },
+      { "fi": "Aurinko paistaa ja taivas on sininen.", "ru": "Солнце светит, и небо синее." },
+      { "fi": "Talvella Suomessa on kylmä.", "ru": "Зимой в Финляндии холодно." },
+      { "fi": "Sataa lunta paljon.", "ru": "Идёт много снега." },
+      { "fi": "Kesällä on lämmin ja valoisa.", "ru": "Летом тепло и светло." },
+      { "fi": "Minä pidän kesästä.", "ru": "Я люблю лето." }
+    ]
+  },
+  {
+    "id": "ystava",
+    "title": "Minun ystäväni",
+    "titleRu": "Мой друг",
+    "level": "A0",
+    "segments": [
+      { "fi": "Minulla on hyvä ystävä.", "ru": "У меня есть хороший друг." },
+      { "fi": "Hänen nimensä on Matti.", "ru": "Его зовут Матти." },
+      { "fi": "Hän on kaksikymmentäviisi vuotta vanha.", "ru": "Ему двадцать пять лет." },
+      { "fi": "Hän asuu Helsingissä.", "ru": "Он живёт в Хельсинки." },
+      { "fi": "Hän työskentelee toimistossa.", "ru": "Он работает в офисе." },
+      { "fi": "Me käymme yhdessä kahvilassa.", "ru": "Мы вместе ходим в кафе." }
+    ]
+  },
+  {
+    "id": "tyo",
+    "title": "Työ ja opiskelu",
+    "titleRu": "Работа и учёба",
+    "level": "A0",
+    "segments": [
+      { "fi": "Minä opiskelen suomea.", "ru": "Я учу финский." },
+      { "fi": "Minä käyn kurssilla kolme kertaa viikossa.", "ru": "Я хожу на курс три раза в неделю." },
+      { "fi": "Opettaja puhuu selvästi.", "ru": "Учитель говорит чётко." },
+      { "fi": "Minä teen kotitehtäviä illalla.", "ru": "Я делаю домашние задания вечером." },
+      { "fi": "Minä haluan oppia suomea hyvin.", "ru": "Я хочу хорошо выучить финский." },
+      { "fi": "Se on vaikeaa mutta hauskaa.", "ru": "Это трудно, но весело." }
+    ]
+  },
+  {
+    "id": "harrastukset",
+    "title": "Harrastukset",
+    "titleRu": "Хобби",
+    "level": "A0",
+    "segments": [
+      { "fi": "Minä tykkään liikunnasta.", "ru": "Я люблю спорт." },
+      { "fi": "Minä käyn lenkillä joka aamu.", "ru": "Я хожу на пробежку каждое утро." },
+      { "fi": "Talvella minä hiihdän.", "ru": "Зимой я катаюсь на лыжах." },
+      { "fi": "Kesällä minä uin järvessä.", "ru": "Летом я плаваю в озере." },
+      { "fi": "Illalla minä luen tai katson elokuvia.", "ru": "Вечером я читаю или смотрю фильмы." },
+      { "fi": "Minä pidän rauhallisista illoista.", "ru": "Мне нравятся спокойные вечера." }
+    ]
+  },
+  {
+    "id": "ravintolassa",
+    "title": "Ravintolassa",
+    "titleRu": "В ресторане",
+    "level": "A0",
+    "segments": [
+      { "fi": "Minä menen ravintolaan ystävän kanssa.", "ru": "Я иду в ресторан с другом." },
+      { "fi": "Tarjoilija tuo menun.", "ru": "Официант приносит меню." },
+      { "fi": "Minä tilaan keittoa ja kalaa.", "ru": "Я заказываю суп и рыбу." },
+      { "fi": "Ystäväni tilaa pizzaa.", "ru": "Мой друг заказывает пиццу." },
+      { "fi": "Ruoka on herkullista.", "ru": "Еда вкусная." },
+      { "fi": "Me maksamme ja lähdemme kotiin.", "ru": "Мы платим и уходим домой." }
+    ]
+  },
+  {
+    "id": "viikko",
+    "title": "Minun viikkoni",
+    "titleRu": "Моя неделя",
+    "level": "A0",
+    "segments": [
+      { "fi": "Maanantaina minä menen töihin.", "ru": "В понедельник я иду на работу." },
+      { "fi": "Tiistaina minulla on suomen kurssi.", "ru": "Во вторник у меня курс финского." },
+      { "fi": "Keskiviikkona minä käyn kaupassa.", "ru": "В среду я хожу в магазин." },
+      { "fi": "Torstaina minä tapaan ystäviä.", "ru": "В четверг я встречаюсь с друзьями." },
+      { "fi": "Perjantaina minä rentoudun kotona.", "ru": "В пятницу я отдыхаю дома." },
+      { "fi": "Lauantaina ja sunnuntaina minä nukun pitkään.", "ru": "В субботу и воскресенье я долго сплю." }
+    ]
+  }
+]

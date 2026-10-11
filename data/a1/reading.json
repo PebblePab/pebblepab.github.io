@@ -1,0 +1,152 @@
+[
+  {
+    "id": "viikonloppu",
+    "title": "Minun viikonloppuni",
+    "titleRu": "Мои выходные",
+    "level": "A1",
+    "segments": [
+      { "fi": "Viime viikonloppuna minä heräsin myöhään.", "ru": "В прошлые выходные я проснулся поздно." },
+      { "fi": "Minä join kahvia ja luin sanomalehteä.", "ru": "Я пил кофе и читал газету." },
+      { "fi": "Iltapäivällä minä kävin kävelyllä puistossa.", "ru": "Днём я ходил на прогулку в парке." },
+      { "fi": "Sää oli kaunis ja aurinko paistoi.", "ru": "Погода была красивая, и солнце светило." },
+      { "fi": "Illalla minä tapasin ystäviäni kahvilassa.", "ru": "Вечером я встретил друзей в кафе." },
+      { "fi": "Me joimme teetä ja puhuimme paljon.", "ru": "Мы пили чай и много разговаривали." },
+      { "fi": "Minä tulin kotiin myöhään ja menin heti nukkumaan.", "ru": "Я пришёл домой поздно и сразу пошёл спать." }
+    ]
+  },
+  {
+    "id": "kesaloma",
+    "title": "Kesäloma Suomessa",
+    "titleRu": "Летний отпуск в Финляндии",
+    "level": "A1",
+    "segments": [
+      { "fi": "Viime kesänä minä matkustin Suomeen.", "ru": "Прошлым летом я путешествовал в Финляндию." },
+      { "fi": "Minä vietin kaksi viikkoa mökillä järven rannalla.", "ru": "Я провёл две недели на даче у озера." },
+      { "fi": "Aamuisin minä uin järvessä.", "ru": "По утрам я плавал в озере." },
+      { "fi": "Iltapäivällä me kävimme saunassa ja söimme hyvää ruokaa.", "ru": "После обеда мы ходили в сауну и ели хорошую еду." },
+      { "fi": "Me keräsimme myös marjoja metsästä.", "ru": "Мы также собирали ягоды в лесу." },
+      { "fi": "Yöllä aurinko ei mennyt kokonaan alas.", "ru": "Ночью солнце не заходило полностью." },
+      { "fi": "Se oli ihana loma.", "ru": "Это был чудесный отпуск." }
+    ]
+  },
+  {
+    "id": "laakarissa",
+    "title": "Lääkärissä",
+    "titleRu": "У врача",
+    "level": "A1",
+    "segments": [
+      { "fi": "Eilen minä heräsin ja minulla oli huono olo.", "ru": "Вчера я проснулся, и мне было плохо." },
+      { "fi": "Minulla oli kova päänsärky ja kuume.", "ru": "У меня сильно болела голова и была температура." },
+      { "fi": "Minä soitin terveysasemalle ja varasin ajan lääkärille.", "ru": "Я позвонил в поликлинику и записался к врачу." },
+      { "fi": "Lääkäri kuunteli minua ja mittasi kuumeen.", "ru": "Врач меня выслушал и измерил температуру." },
+      { "fi": "Hän sanoi, että minulla on flunssa.", "ru": "Он сказал, что у меня простуда." },
+      { "fi": "Hän antoi minulle reseptin apteekkiin.", "ru": "Он дал мне рецепт в аптеку." },
+      { "fi": "Minä ostin lääkkeet ja menin kotiin nukkumaan.", "ru": "Я купил лекарства и пошёл домой спать." }
+    ]
+  },
+  {
+    "id": "kaupungilla",
+    "title": "Kaupungilla",
+    "titleRu": "В городе",
+    "level": "A1",
+    "segments": [
+      { "fi": "Lauantaina minä menin kaupungille ystäväni kanssa.", "ru": "В субботу я поехал в город с другом." },
+      { "fi": "Ensin me kävimme kahvilassa ja joimme kahvia.", "ru": "Сначала мы зашли в кафе и выпили кофе." },
+      { "fi": "Sitten me kävelimme torille ja katselimme vihanneksia ja hedelmiä.", "ru": "Потом мы гуляли по рынку и рассматривали овощи и фрукты." },
+      { "fi": "Minä ostin tuoreita marjoja ja pullaa.", "ru": "Я купил свежие ягоды и булочку." },
+      { "fi": "Me kävimme myös museossa.", "ru": "Мы также сходили в музей." },
+      { "fi": "Siellä oli paljon kiinnostavia asioita.", "ru": "Там было много интересного." },
+      { "fi": "Illalla me palasimme kotiin bussilla.", "ru": "Вечером мы вернулись домой на автобусе." }
+    ]
+  },
+  {
+    "id": "opiskelen_suomea",
+    "title": "Opiskelen suomea",
+    "titleRu": "Я учу финский",
+    "level": "A1",
+    "segments": [
+      { "fi": "Minä aloitin suomen opiskelun vuosi sitten.", "ru": "Я начал учить финский год назад." },
+      { "fi": "Ensin se oli hyvin vaikeaa.", "ru": "Сначала это было очень трудно." },
+      { "fi": "Minä en ymmärtänyt mitään, kun ihmiset puhuivat.", "ru": "Я ничего не понимал, когда люди говорили." },
+      { "fi": "Nyt minä ymmärrän jo paljon enemmän.", "ru": "Сейчас я понимаю уже намного больше." },
+      { "fi": "Minä opiskelen joka päivä kaksikymmentä minuuttia.", "ru": "Я учусь каждый день двадцать минут." },
+      { "fi": "Katson suomalaisia uutisia ja kuuntelen musiikkia.", "ru": "Я смотрю финские новости и слушаю музыку." },
+      { "fi": "Haluan puhua suomea sujuvasti.", "ru": "Я хочу говорить по-фински бегло." }
+    ]
+  },
+  {
+    "id": "minun_tyo",
+    "title": "Minun työni",
+    "titleRu": "Моя работа",
+    "level": "A1",
+    "segments": [
+      { "fi": "Minä työskentelen toimistossa Helsingissä.", "ru": "Я работаю в офисе в Хельсинки." },
+      { "fi": "Minun työni alkaa yhdeksältä ja päättyy viideltä.", "ru": "Моя работа начинается в девять и заканчивается в пять." },
+      { "fi": "Minä teen paljon töitä tietokoneella.", "ru": "Я много работаю за компьютером." },
+      { "fi": "Minulla on mukavat työkaverit.", "ru": "У меня приятные коллеги." },
+      { "fi": "Lounasaikaan me syömme yhdessä.", "ru": "В обед мы едим вместе." },
+      { "fi": "Joskus minä teen etätöitä kotoa käsin.", "ru": "Иногда я работаю удалённо из дома." },
+      { "fi": "Pidän työstäni, mutta se on joskus stressaavaa.", "ru": "Мне нравится моя работа, но иногда она стрессовая." }
+    ]
+  },
+  {
+    "id": "ystavan_luona",
+    "title": "Ystävän luona kylässä",
+    "titleRu": "В гостях у друга",
+    "level": "A1",
+    "segments": [
+      { "fi": "Eilen minä kävin ystäväni luona kylässä.", "ru": "Вчера я ходил в гости к другу." },
+      { "fi": "Hän asuu uudessa kerrostalossa keskustassa.", "ru": "Он живёт в новом многоквартирном доме в центре." },
+      { "fi": "Hänen asuntonsa on kolmannessa kerroksessa.", "ru": "Его квартира на третьем этаже." },
+      { "fi": "Me joimme teetä ja söimme kotitekoista kakkua.", "ru": "Мы пили чай и ели домашний торт." },
+      { "fi": "Hän kertoi minulle uudesta työstään.", "ru": "Он рассказал мне о своей новой работе." },
+      { "fi": "Me katsoimme elokuvaa ja puhuimme myöhään yöhön.", "ru": "Мы смотрели фильм и разговаривали до поздней ночи." },
+      { "fi": "Se oli mukava ilta.", "ru": "Это был приятный вечер." }
+    ]
+  },
+  {
+    "id": "matkalla_lappiin",
+    "title": "Matkalla Lappiin",
+    "titleRu": "В пути в Лапландию",
+    "level": "A1",
+    "segments": [
+      { "fi": "Viime talvena minä matkustin Lappiin junalla.", "ru": "Прошлой зимой я поехал в Лапландию на поезде." },
+      { "fi": "Matka kesti kaksitoista tuntia.", "ru": "Поездка длилась двенадцать часов." },
+      { "fi": "Junassa minä luin kirjaa ja nukuin.", "ru": "В поезде я читал книгу и спал." },
+      { "fi": "Perillä oli todella kylmä, miinus kolmekymmentä astetta.", "ru": "На месте было очень холодно — минус тридцать градусов." },
+      { "fi": "Minä näin revontulet ensimmäistä kertaa elämässäni.", "ru": "Я впервые в жизни увидел северное сияние." },
+      { "fi": "Me myös laskettelimme ja hiihdimme.", "ru": "Мы также катались на санках и на лыжах." },
+      { "fi": "Lappi on upea paikka.", "ru": "Лапландия — потрясающее место." }
+    ]
+  },
+  {
+    "id": "joulu",
+    "title": "Joulu Suomessa",
+    "titleRu": "Рождество в Финляндии",
+    "level": "A1",
+    "segments": [
+      { "fi": "Joulukuussa Suomessa on hyvin pimeää.", "ru": "В декабре в Финляндии очень темно." },
+      { "fi": "Ihmiset laittavat paljon valoja koteihinsa.", "ru": "Люди вешают много огней в свои дома." },
+      { "fi": "Jouluaattona perheet kokoontuvat yhteen.", "ru": "В рождественский сочельник семьи собираются вместе." },
+      { "fi": "Me syömme kinkkua, laatikoita ja piparkakkuja.", "ru": "Мы едим окорок, запеканки и пряники." },
+      { "fi": "Joulupukki tulee illalla ja tuo lahjoja.", "ru": "Вечером приходит Дед Мороз и приносит подарки." },
+      { "fi": "Lapset odottavat häntä kovasti.", "ru": "Дети его очень ждут." },
+      { "fi": "Joulu on minun lempijuhlani.", "ru": "Рождество — мой любимый праздник." }
+    ]
+  },
+  {
+    "id": "harrastukset2",
+    "title": "Minun harrastukseni",
+    "titleRu": "Мои увлечения",
+    "level": "A1",
+    "segments": [
+      { "fi": "Minulla on muutama harrastus.", "ru": "У меня есть несколько увлечений." },
+      { "fi": "Talvella minä käyn uimahallissa kaksi kertaa viikossa.", "ru": "Зимой я хожу в бассейн два раза в неделю." },
+      { "fi": "Kesällä minä pyöräilen paljon.", "ru": "Летом я много катаюсь на велосипеде." },
+      { "fi": "Minä pidän myös valokuvauksesta.", "ru": "Я также люблю фотографию." },
+      { "fi": "Joskus minä piirrän ja maalaan.", "ru": "Иногда я рисую и пишу красками." },
+      { "fi": "Illalla minä luen kirjaa tai kuuntelen musiikkia.", "ru": "Вечером я читаю книгу или слушаю музыку." },
+      { "fi": "Harrastukset auttavat minua rentoutumaan.", "ru": "Увлечения помогают мне расслабиться." }
+    ]
+  }
+]
