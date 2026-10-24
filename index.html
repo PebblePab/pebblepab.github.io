@@ -5,11 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="data:,">
   <title>Suomi</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Sans+3:wght@400;600&display=swap">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- ЭКРАН 1: главное меню (выбор уровня) -->
+  <!-- ЭКРАН 1: главное меню -->
   <section id="screen-menu" class="screen">
     <div id="menu-inner">
       <div id="menu-header">
@@ -17,12 +18,11 @@
         <button class="theme-toggle" title="Тема">🌙</button>
       </div>
       <p id="menu-subtitle">Выбери уровень</p>
-
       <div id="level-grid"></div>
     </div>
   </section>
 
-  <!-- ЭКРАН 2: меню уровня (выбор режима) -->
+  <!-- ЭКРАН 2: меню уровня -->
   <section id="screen-level" class="screen" hidden>
     <div id="menu-inner">
       <div id="menu-header">
@@ -38,19 +38,16 @@
           <div class="mode-title">Карточки</div>
           <div class="mode-desc">Слова с интервальным повторением</div>
         </button>
-
         <button class="mode-card" data-goto="reading">
           <div class="mode-icon">📖</div>
           <div class="mode-title">Чтение</div>
           <div class="mode-desc">Короткие тексты с переводом</div>
         </button>
-
         <button class="mode-card" data-goto="grammar">
           <div class="mode-icon">📐</div>
           <div class="mode-title">Грамматика</div>
           <div class="mode-desc">Правила с примерами и таблицами</div>
         </button>
-
         <button class="mode-card" data-goto="vocab">
           <div class="mode-icon">📚</div>
           <div class="mode-title">Словарь</div>
@@ -75,15 +72,12 @@
 
       <main id="app">
         <div id="progress-section">
-          <div id="progress-bar">
-            <div id="progress-fill"></div>
-          </div>
+          <div id="progress-bar"><div id="progress-fill"></div></div>
           <div id="progress-labels">
             <span id="session-count">Сегодня: 0</span>
             <span id="streak-count">Подряд: 0</span>
           </div>
         </div>
-
         <div id="card-wrap">
           <div id="card">
             <div id="question">Загрузка...</div>
@@ -91,16 +85,11 @@
           </div>
           <div id="feedback"></div>
         </div>
-
         <div id="input-row">
           <input type="text" id="answer-input" placeholder="Введи по-фински..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
           <button id="check-btn">Проверить</button>
         </div>
-
-        <div id="controls">
-          <button id="dont-know-btn">Не знаю</button>
-        </div>
-
+        <div id="controls"><button id="dont-know-btn">Не знаю</button></div>
         <div id="hint">Enter — проверить · ← не знаю · → знаю · Space — ответ</div>
         <div id="stats"></div>
       </main>
@@ -119,17 +108,13 @@
         </div>
         <ul id="text-list" class="content-list"></ul>
       </aside>
-
       <main class="content-main">
         <div id="reading-empty" class="content-empty">
-          <div class="empty-icon">📖</div>
-          <p>Выбери текст слева</p>
+          <div class="empty-icon">📖</div><p>Выбери текст слева</p>
         </div>
-
         <article id="reading-article" hidden>
           <header class="article-header">
-            <h2 id="article-title"></h2>
-            <div id="article-subtitle" class="article-subtitle"></div>
+            <h2 id="article-title"></h2><div id="article-subtitle" class="article-subtitle"></div>
           </header>
           <div id="article-body"></div>
         </article>
@@ -149,17 +134,13 @@
         </div>
         <ul id="grammar-topic-list" class="content-list"></ul>
       </aside>
-
       <main class="content-main">
         <div id="grammar-empty" class="content-empty">
-          <div class="empty-icon">📐</div>
-          <p>Выбери тему слева</p>
+          <div class="empty-icon">📐</div><p>Выбери тему слева</p>
         </div>
-
         <article id="grammar-article" hidden>
           <header class="article-header">
-            <h2 id="grammar-title"></h2>
-            <div id="grammar-subtitle" class="article-subtitle"></div>
+            <h2 id="grammar-title"></h2><div id="grammar-subtitle" class="article-subtitle"></div>
           </header>
           <div id="grammar-body"></div>
         </article>
@@ -167,14 +148,48 @@
     </div>
   </section>
 
-  <!-- ЭКРАН 6: словарь -->
-  <section id="screen-vocab" class="screen" hidden style="padding: 0; height: 100vh; overflow: hidden;">
-    <iframe src="vocab.html" style="width: 100%; height: 100%; border: none; background: var(--bg-base); display: block;"></iframe>
+  <!-- ЭКРАН 6: словарь (нативный) -->
+  <section id="screen-vocab" class="screen" hidden>
+    <div class="vocab-wrap">
+      <header>
+        <h1>Финский словарь</h1>
+        <div class="prog">
+          <span id="progText"></span>
+          <div class="bar"><i id="progBar"></i></div>
+        </div>
+      </header>
+      
+      <div class="tools">
+        <div class="row">
+          <div class="seg" id="segLevel" role="group" aria-label="Уровень">
+            <button data-v="all" aria-pressed="true">Все</button>
+            <button data-v="a0" aria-pressed="false">A0</button>
+            <button data-v="a1" aria-pressed="false">A1</button>
+          </div>
+          <div class="seg" id="segMode" role="group" aria-label="Режим">
+            <button data-v="both" aria-pressed="true">Всё видно</button>
+            <button data-v="hideRu" aria-pressed="false">Скрыть русский</button>
+            <button data-v="hideFi" aria-pressed="false">Скрыть финский</button>
+            <button data-v="cards" aria-pressed="false">Карточки</button>
+          </div>
+        </div>
+        <div class="row">
+          <input type="search" id="vocab-q" placeholder="Поиск по слову или переводу" aria-label="Поиск">
+          <select id="vocab-cat" aria-label="Тема"></select>
+          <button class="btn" id="unk" aria-pressed="false">Только невыученные</button>
+          <button class="btn" id="shuf" aria-pressed="false">Перемешать</button>
+          <button class="btn" id="reveal">Показать всё</button>
+        </div>
+        <div class="count" id="vocab-count"></div>
+      </div>
+      <div id="vocab-out"></div>
+    </div>
   </section>
 
   <script src="levels.js"></script>
   <script src="app.js"></script>
   <script src="reading.js"></script>
   <script src="grammar.js"></script>
+  <script src="vocab.js"></script>
 </body>
 </html>
