@@ -808,3 +808,7 @@ body.dark #screen-vocab {
   #screen-vocab td.fi { font-size: 1.05rem; }
   #screen-vocab .seg button { padding: 7px 9px; }
 }
+
+#screen-vocab .vocab-title { display: flex; align-items: center; gap: 8px; min-width: 0; }
+#screen-vocab .vocab-title .back-btn { flex: none; margin-left: -10px; }
+#screen-vocab .vocab-title h1 { flex: 1 1 auto; min-width: 0; }
