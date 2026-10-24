@@ -718,13 +718,12 @@ kbd {
   --v-known-bg: #e4f2ea;
   --v-hide: var(--input-bg);
   
-  background: var(--v-bg);
+  background: transparent;
   color: var(--v-ink);
   font-family: 'Source Sans 3', system-ui, sans-serif;
   font-size: 16px;
   line-height: 1.4;
-  min-height: calc(100vh - 4rem);
-  padding-bottom: 48px;
+  padding-bottom: 8px;
 }
 
 body.dark #screen-vocab {
@@ -749,8 +748,8 @@ body.dark #screen-vocab {
 #screen-vocab .bar i { display: block; height: 100%; background: var(--v-known); width: 0; transition: width .3s; }
 
 #screen-vocab .tools {
-  position: sticky; top: 0; z-index: 5; background: var(--v-bg); padding-block: 12px; margin-top: 8px;
-  display: flex; flex-direction: column; gap: 8px; border-bottom: 1px solid var(--v-line);
+  padding-block: 12px; margin-top: 8px;
+  display: flex; flex-direction: column; gap: 8px;
 }
 #screen-vocab .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
 
@@ -773,9 +772,10 @@ body.dark #screen-vocab {
 #screen-vocab .btn[aria-pressed="true"] { border-color: var(--v-accent); color: var(--v-accent); font-weight: 600; }
 #screen-vocab .count { font-size: .85rem; color: var(--v-muted); }
 
-#screen-vocab .tablebox { overflow-x: auto; margin-top: 16px; }
-#screen-vocab table { width: 100%; border-collapse: collapse; background: var(--v-surface); border: 1px solid var(--v-line); border-radius: 8px; }
-#screen-vocab tr.cat th { font-family: 'Bricolage Grotesque', sans-serif; text-align: left; padding: 18px 12px 8px; font-size: 1.05rem; background: var(--v-bg); border: 0; }
+#screen-vocab #vocab-out { margin-top: 8px; max-height: 75vh; max-height: 75dvh; overflow: auto; overscroll-behavior: contain; border-radius: 12px; }
+#screen-vocab .tablebox { overflow: visible; }
+#screen-vocab table { width: 100%; border-collapse: collapse; background: var(--v-surface); border: 0; }
+#screen-vocab tr.cat th { font-family: 'Bricolage Grotesque', sans-serif; text-align: left; padding: 12px; font-size: 1.05rem; background: var(--v-hide); border: 0; position: sticky; top: 0; z-index: 2; }
 #screen-vocab tr.cat th span { color: var(--v-muted); font-family: 'Source Sans 3', sans-serif; font-size: .85rem; font-weight: 400; margin-left: 8px; }
 #screen-vocab td { padding: 9px 12px; border-top: 1px solid var(--v-line); vertical-align: middle; }
 #screen-vocab td.fi { font-size: 1.15rem; font-weight: 600; width: 42%; }
