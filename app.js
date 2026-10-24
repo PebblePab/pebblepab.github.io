@@ -2,11 +2,13 @@
    СОСТОЯНИЕ
    ============================================================ */
 let currentLevel = 'a0';
-let currentMode = 'menu'; // 'menu' | 'level' | 'cards' | 'reading' | 'grammar'
+let currentMode = 'menu'; // 'menu' | 'level' | 'cards' | 'reading' | 'grammar' | 'vocab'
 
 /* ============================================================
    РОУТЕР
    ============================================================ */
+const SCREENS = ['menu', 'level', 'cards', 'reading', 'grammar', 'vocab'];
+
 function parseHash() {
   const raw = location.hash.replace('#', '');
   if (!raw) return { screen: 'menu' };
@@ -20,7 +22,7 @@ function parseHash() {
 
   const mode = parts[1];
   if (!mode) return { screen: 'level', level };
-  if (!['cards', 'reading', 'grammar'].includes(mode)) return { screen: 'level', level };
+  if (!['cards', 'reading', 'grammar', 'vocab'].includes(mode)) return { screen: 'level', level };
 
   return { screen: mode, level };
 }
@@ -39,16 +41,15 @@ async function goto(path) {
 }
 
 async function applyRoute(route) {
-  const screens = ['menu', 'level', 'cards', 'reading', 'grammar'];
-  for (const s of screens) {
+  for (const s of SCREENS) {
     document.getElementById('screen-' + s).hidden = s !== route.screen;
   }
 
-if (route.screen === 'menu') {
-  currentMode = 'menu';
-  if (window.levelsApp.refreshProgress) window.levelsApp.refreshProgress();
-  return;
-}
+  if (route.screen === 'menu') {
+    currentMode = 'menu';
+    if (window.levelsApp.refreshProgress) window.levelsApp.refreshProgress();
+    return;
+  }
 
   currentLevel = route.level;
   const lvl = window.levelsApp.get(currentLevel);
@@ -76,6 +77,9 @@ if (route.screen === 'menu') {
   if (route.screen === 'cards') await window.cardsApp.onShow(currentLevel);
   if (route.screen === 'reading') await window.readingApp.onShow(currentLevel);
   if (route.screen === 'grammar') await window.grammarApp.onShow(currentLevel);
+  if (route.screen === 'vocab') {
+    // iframe грузится автоматически, ничего дополнительно не нужно
+  }
 }
 
 /* Клики по data-goto */
@@ -84,7 +88,7 @@ document.addEventListener('click', e => {
   if (btn) {
     const target = btn.dataset.goto;
     if (target === 'menu') return goto('menu');
-    if (target === 'cards' || target === 'reading' || target === 'grammar') {
+    if (['cards', 'reading', 'grammar', 'vocab'].includes(target)) {
       return goto(currentLevel + '/' + target);
     }
     // уровень
@@ -543,3 +547,4 @@ window.cardsApp = (() => {
   await window.levelsApp.init();
   await applyRoute(parseHash());
 })();
+  

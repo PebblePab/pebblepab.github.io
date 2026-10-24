@@ -51,10 +51,10 @@
           <div class="mode-desc">Правила с примерами и таблицами</div>
         </button>
 
-        <button class="mode-card disabled" disabled>
-          <div class="mode-icon">🎧</div>
-          <div class="mode-title">Аудирование</div>
-          <div class="mode-desc">Скоро</div>
+        <button class="mode-card" data-goto="vocab">
+          <div class="mode-icon">📚</div>
+          <div class="mode-title">Словарь</div>
+          <div class="mode-desc">Таблицы, поиск и карточки для зубрёжки</div>
         </button>
       </div>
     </div>
@@ -167,10 +167,14 @@
     </div>
   </section>
 
+  <!-- ЭКРАН 6: словарь -->
+  <section id="screen-vocab" class="screen" hidden style="padding: 0; height: 100vh; overflow: hidden;">
+    <iframe src="vocab.html" style="width: 100%; height: 100%; border: none; background: var(--bg-base); display: block;"></iframe>
+  </section>
+
   <script src="levels.js"></script>
   <script src="app.js"></script>
   <script src="reading.js"></script>
   <script src="grammar.js"></script>
 </body>
 </html>
-  
