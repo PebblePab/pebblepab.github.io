@@ -77,9 +77,7 @@ async function applyRoute(route) {
   if (route.screen === 'cards') await window.cardsApp.onShow(currentLevel);
   if (route.screen === 'reading') await window.readingApp.onShow(currentLevel);
   if (route.screen === 'grammar') await window.grammarApp.onShow(currentLevel);
-  if (route.screen === 'vocab') {
-    // iframe грузится автоматически, ничего дополнительно не нужно
-  }
+  if (route.screen === 'vocab') await window.vocabApp.onShow();
 }
 
 /* Клики по data-goto */
@@ -547,4 +545,3 @@ window.cardsApp = (() => {
   await window.levelsApp.init();
   await applyRoute(parseHash());
 })();
-  
